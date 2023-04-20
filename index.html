@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movimentando Objetos</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background-image: url(https://portalvidalivre.com/uploads/content/image/43455/Design_sem_nome__9_.png);;
+            overflow: hidden;
+            background-repeat: none;
+        }
+
+        #objetoNaoIdentificado{
+            background-image: url(https://cdn-icons-png.flaticon.com/512/185/185718.png);
+            background-size: 30px;
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            margin: 30px;
+            filter: drop-shadow(0 0 15px white);
+        }
+
+        h1{
+            background-image: linear-gradient(to right, black, green);
+            text-align: center;
+            color: darkseagreen;
+        }
+
+        canvas{
+            margin-left: 10%;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Movimentando Objetos
+    </h1>
+    <span id="objetoNaoIdentificado"></span>
+    <canvas width="700" height="700"></canvas>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
